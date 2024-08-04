@@ -1,0 +1,43 @@
+.main-container{
+    background-image: url("https://img.freepik.com/free-photo/nature-colorful-landscape-dusk-cloud_1203-5705.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722643200&semt=sph");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.Heading{
+    color:rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.heading-container{
+    background-color: rgba(255, 255, 255, 0.412);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.inp{
+    border: solid black 1px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button{
+    font-family: Roboto, sans-serif;
+    margin-top: 10px;
+}
+
+.error{
+    color: red;
+    margin-top: 10px;
+}
+
+#weather-info{
+    margin-top: 10px;
+}
